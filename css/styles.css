@@ -5,7 +5,7 @@ body{
 	background-image: URL("../images/background.jpg")
 }
 
-.mybut {
+.mybutton {
 	background-color: aqua;
 	width: 120px;
 	height: 64px;
@@ -18,7 +18,7 @@ body{
 	align-items: center;
 }
 
-.mybut:hover{
+.mybutton:hover{
 	background-color: aliceblue
 }
 
@@ -41,6 +41,19 @@ nav {
 	height: 264px;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 25px;
 }
 		
+.boy {
+	float:left;
+	padding-right: 15px;
+}
+
+.girl {
+	background-color: burlywood;
+	width: 876px;
+	height: 864px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 12px;
+	padding-right:12px;
+}
