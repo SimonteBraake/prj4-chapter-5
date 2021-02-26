@@ -1,0 +1,46 @@
+@charset "UFT-8";
+* { margin: 0; padding: 0; border: 0; font-size: 100%; }
+
+body{ 
+	background-image: URL("../images/background.jpg")
+}
+
+.mybutton {
+	background-color: aqua;
+	width: 120px;
+	height: 64px;
+	border-radius: 50px;
+	margin-left: 32px;
+	margin-top: 100px;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.mybutton:hover{
+	background-color: aliceblue
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+}
+.jaja {
+	text-decoration: none;
+	color: #21C527
+}
+.myfont{
+	margin-top: -20px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif"
+}
+.myheader{
+	background-color:#F96F71;
+	background-image:url("../images/city.png");
+	width: 900px;
+	height: 264px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 25px;
+}
+		
